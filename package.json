@@ -1,0 +1,34 @@
+{
+  "name": "biblioteca-ao3",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sync": "vite build && cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/app": "latest",
+    "@capacitor/clipboard": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/filesystem": "latest",
+    "@capacitor/share": "latest",
+    "@fontsource-variable/bricolage-grotesque": "latest",
+    "@fontsource-variable/literata": "latest",
+    "@fontsource-variable/lora": "latest",
+    "@fontsource/atkinson-hyperlegible": "latest",
+    "dexie": "latest",
+    "dexie-react-hooks": "latest",
+    "lucide-react": "latest",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/cli": "latest",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0"
+  }
+}
